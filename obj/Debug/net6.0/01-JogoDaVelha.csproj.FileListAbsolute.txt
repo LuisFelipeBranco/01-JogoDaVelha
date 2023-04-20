@@ -1,0 +1,15 @@
+/home/luis/Documents/01-JogoDaVelha/bin/Debug/net6.0/01-JogoDaVelha
+/home/luis/Documents/01-JogoDaVelha/bin/Debug/net6.0/01-JogoDaVelha.deps.json
+/home/luis/Documents/01-JogoDaVelha/bin/Debug/net6.0/01-JogoDaVelha.runtimeconfig.json
+/home/luis/Documents/01-JogoDaVelha/bin/Debug/net6.0/01-JogoDaVelha.dll
+/home/luis/Documents/01-JogoDaVelha/bin/Debug/net6.0/ref/01-JogoDaVelha.dll
+/home/luis/Documents/01-JogoDaVelha/bin/Debug/net6.0/01-JogoDaVelha.pdb
+/home/luis/Documents/01-JogoDaVelha/obj/Debug/net6.0/01-JogoDaVelha.csproj.AssemblyReference.cache
+/home/luis/Documents/01-JogoDaVelha/obj/Debug/net6.0/01-JogoDaVelha.GeneratedMSBuildEditorConfig.editorconfig
+/home/luis/Documents/01-JogoDaVelha/obj/Debug/net6.0/01-JogoDaVelha.AssemblyInfoInputs.cache
+/home/luis/Documents/01-JogoDaVelha/obj/Debug/net6.0/01-JogoDaVelha.AssemblyInfo.cs
+/home/luis/Documents/01-JogoDaVelha/obj/Debug/net6.0/01-JogoDaVelha.csproj.CoreCompileInputs.cache
+/home/luis/Documents/01-JogoDaVelha/obj/Debug/net6.0/01-JogoDaVelha.dll
+/home/luis/Documents/01-JogoDaVelha/obj/Debug/net6.0/ref/01-JogoDaVelha.dll
+/home/luis/Documents/01-JogoDaVelha/obj/Debug/net6.0/01-JogoDaVelha.pdb
+/home/luis/Documents/01-JogoDaVelha/obj/Debug/net6.0/01-JogoDaVelha.genruntimeconfig.cache
