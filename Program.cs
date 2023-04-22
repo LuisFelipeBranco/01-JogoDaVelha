@@ -1,4 +1,4 @@
-﻿using System.Xml;
+using System.Xml;
 
 namespace _01_Jogo_da_velha
 {
@@ -19,7 +19,7 @@ namespace _01_Jogo_da_velha
                 cont++;
                 if (cont >= 4)
                 {
-                    final = vencedor(campo);//0-;1-vencedor;
+                    final = vencedor(campo);//0-empate;1-vencedor;2-Segue o jogo;
                     if (final == 1)
                     {
                         Console.WriteLine("Deseja reiniciar o jogo: (0-Sim; 1-Não)");
@@ -27,13 +27,15 @@ namespace _01_Jogo_da_velha
                         iniciarTabuleiro(campo);
                         mostrar(campo);
                     }
+                    else if (final == 0) {
+                        Console.WriteLine("Jogo deu empate!!");
+                        Console.WriteLine("Deseja reiniciar o jogo: (0-Sim; 1-Não)");
+                        opc = int.Parse(Console.ReadLine());
+                        iniciarTabuleiro(campo);
+                        mostrar(campo);
+                    }
                 }//a partir da 3 vez, já pode ter um vencedor;
             }
-        }
-
-        public static int soma(int a, int b)
-        {
-            return a + b;
         }
 
         public static int vencedor(char[,] campo)
@@ -77,6 +79,14 @@ namespace _01_Jogo_da_velha
                 else { player = "Player 2"; }
                 Console.WriteLine($"Vencedor na diagonal principal inversa, jogador: {player}");
                 return 1;
+            }
+            //0 - empate; 1 - vencedor; 2 - Segue o jogo;
+            for (i = 0; i < campo.GetLength(0); i++){
+                for (j = 0; j < campo.GetLength(1); j++) {
+                    if (campo[i, j] == ' ') { //ainda pode jogar
+                        return 2;
+                    }
+                }
             }
             return 0;
         }
